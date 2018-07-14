@@ -47,11 +47,11 @@ body {
  
 /* AnswerOption Component */
 .answerOption {
-  border-top: 1px solid #eee;
+  border-top: 1px solid rgb(223, 8, 223);
 }
  
 .answerOption:hover {
-  background-color: #eefbfe;
+  background-color: #0eb3d8;
 }
  
 .radioCustomButton {
@@ -85,8 +85,8 @@ body {
     content: '';
     display: inline-block;
     vertical-align: middle;
-    background: #fff;
-    border: 1px solid #bbb;
+    background: rgb(243, 240, 240);
+    border: 1px solid rgb(11, 13, 126);
     border-radius: 50%;
     transition: all 0.3s;
 }

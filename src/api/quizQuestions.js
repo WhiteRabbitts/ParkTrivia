@@ -3,7 +3,7 @@ var quizQuestions = [
         question: "What is your spirit animal ? ",
         answers: [
             {
-                type: "Stark",
+                type: "Casual Tourist",
                 content: "Wolf"
                 
             },
@@ -11,11 +11,11 @@ var quizQuestions = [
    
    
             {
-                type: "Lannister",
+                type: "Interested Tourist",
                 content: "Lion"
             },
             {
-                type: "Targaryen",
+                type: "Incredible Tourist!",
                 content: "Dragon"
             }
         ]
