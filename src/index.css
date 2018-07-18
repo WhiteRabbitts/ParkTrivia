@@ -1,34 +1,36 @@
 
  
 body {
-  margin: 0;
+  margin-right: 0;
   padding: 0;
-  background: #eee;
+  background: rgb(255, 255, 255);
   font-family: sans-serif;
 }
  
 .container {
   position: relative;
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 100%;
+  min-width: 120%;
+  margin-right: -50%;
   background: #fff;
   border-radius: 3px;
 }
  
 @media (min-width: 769px) {
   .container {
-    margin: auto;
+    margin-left: -50%;
   }
 }
  
 /* Result Component */
 .result {
-  padding: 0;
+  padding-left: 2%;
   color: #8BC53F;
   margin-left: 10%;
   margin-right: 10%;
   font-size: 25px;
   margin-top: 50px;
+  text-align: center;
   
 }
  
@@ -54,6 +56,8 @@ body {
 /* AnswerOption Component */
 .answerOption {
   border-top: 1px solid rgb(255, 255, 255);
+  margin-right: 10%;
+
 }
  
 .answerOption:hover {
@@ -134,4 +138,9 @@ body {
 .fade-appear.fade-appear-active {
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
+}
+
+img {
+    margin-left: 10%;
+    margin-right: 10%;
 }

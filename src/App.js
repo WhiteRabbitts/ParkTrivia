@@ -22,9 +22,9 @@ class App extends Component {
       answerOptions: [],
       answer: '',
       answersCount: {
-        Stark: 0,
-        Lannister: 0,
-        Targaryen: 0
+        "an interested park-goer!": 0,
+        "a park and attraction enthusiast!": 0,
+        "a casual park-goer!": 0
       },
       result: ''
     };
