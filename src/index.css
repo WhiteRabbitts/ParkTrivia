@@ -11,14 +11,15 @@ body {
   position: relative;
   max-width: 100%;
   min-width: 120%;
-  margin-right: -50%;
+  margin-right: 10%;
+  margin-left: 10%;
   background: #fff;
   border-radius: 3px;
 }
  
 @media (min-width: 769px) {
   .container {
-    margin-left: -50%;
+    margin-left: 50%;
   }
 }
  
@@ -49,19 +50,20 @@ body {
  
 /* Question Component */
 .question {
-  margin: 0;
+  margin-left: -10%;
+  margin-right: -10%;
   padding: 0.5rem 2.5rem 1.5rem 2.5rem;
 }
  
 /* AnswerOption Component */
 .answerOption {
   border-top: 1px solid rgb(255, 255, 255);
-  margin-right: 10%;
+  margin-right: 18%;
 
 }
  
 .answerOption:hover {
-  background-color: #f9fafa;
+  background-color: #ffffff;
 }
  
 .radioCustomButton {
@@ -96,7 +98,7 @@ body {
     display: inline-block;
     vertical-align: left;
     background: rgb(243, 240, 240);
-    border: 1px solid rgb(11, 13, 126);
+    border: 1px solid rgb(65, 11, 126);
     border-radius: 50%;
     transition: all 0.3s;
 }
@@ -143,4 +145,6 @@ body {
 img {
     margin-left: 10%;
     margin-right: 10%;
+    width: 70%;
 }
+

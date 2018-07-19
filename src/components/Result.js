@@ -14,7 +14,12 @@ function Result(props) {
 			transitionAppearTimeout={500}
 		>
 			<div>
-				You are <strong>{props.quizResult}</strong>
+				<p>
+				You are <strong>{props.quizResult}  
+				<br/>
+				<br/>
+				Click <a href="https://en.wikipedia.org/wiki/Universal%27s_Islands_of_Adventure" target="_newtab">here</a> to learn more about this park!</strong>
+				</p>
 			</div>
 		</ReactCSSTransitionGroup>
 	);
