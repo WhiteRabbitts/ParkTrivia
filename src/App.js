@@ -10,7 +10,7 @@ import './App.css';
 class App extends Component {
  
  
- 
+
  
   constructor(props) {
     super(props);
@@ -68,7 +68,6 @@ class App extends Component {
         setTimeout(() => this.setResults(this.getResults()), 300);
     }
   }
- 
   setUserAnswer(answer) {
     const updatedAnswersCount = update(this.state.answersCount, {
       [answer]: {$apply: (currentValue) => currentValue + 1}
