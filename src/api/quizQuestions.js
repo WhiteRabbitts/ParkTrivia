@@ -51,7 +51,7 @@ var quizQuestions = [
         ]
     },
     {
-        question: "Islands of Adventure opened in 1999 as The Most Technologically Advanced Theme Park in the World.  From Conception to Opening Day, how long did the park take to build?",
+        question: "Islands of Adventure opened in 1999 as The Most Technologically Advanced Theme Park in the World.  From Conception to Opening Day, how long did the park take to complete?",
         answers: [
             {
                 type: "a casual park-goer!",
@@ -251,6 +251,91 @@ var quizQuestions = [
             {
                 type: "a park and attraction enthusiast!",
                 content: "a whirling swirling power generator"
+            }
+        ]
+    },
+    {
+        question: "On Popeye and Bluto's Bilge Rat Barges, the lifthill back up is themed as:",
+        answers: [
+            {
+                type: "a casual park-goer!",
+                content: "what theme?" 
+            },
+            {
+                type: "an interested park-goer!",
+                content: "Popeye's spinach machine"
+            },
+            {
+                type: "a park and attraction enthusiast!",
+                content: "a boat wash"
+            }
+        ]
+    },
+    {
+        question: "The Hogwarts Express utilizes what technology to move the trains?",
+        answers: [
+            {
+                type: "a casual park-goer!",
+                content: "Magic!" 
+            },
+            {
+                type: "an interested park-goer!",
+                content: "A real train engine"
+            },
+            {
+                type: "a park and attraction enthusiast!",
+                content: "cables and pulleys"
+            }
+        ]
+    },
+    {
+        question: "Poseidon's Fury is a walkthrough attraction inside the Lost Continent that features an impressive:",
+        answers: [
+            {
+                type: "a casual park-goer!",
+                content: "queue" 
+            },
+            {
+                type: "an interested park-goer!",
+                content: "lighting package"
+            },
+            {
+                type: "a park and attraction enthusiast!",
+                content: "water vortex"
+            }
+        ]
+    },
+    {
+        question: "Who made The Incredible Hulk Coaster's custom on-board audio?",
+        answers: [
+            {
+                type: "a casual park-goer!",
+                content: "Daft Punk" 
+            },
+            {
+                type: "an interested park-goer!",
+                content: "Calvin Harris"
+            },
+            {
+                type: "a park and attraction enthusiast!",
+                content: "Patrick Stump"
+            }
+        ]
+    },
+    {
+        question: "Mythos inside The Lost Continent has won the award for World's Best Theme Park Restauraunt for how many years?",
+        answers: [
+            {
+                type: "a casual park-goer!",
+                content: "1" 
+            },
+            {
+                type: "an interested park-goer!",
+                content: "8"
+            },
+            {
+                type: "a park and attraction enthusiast!",
+                content: "6"
             }
         ]
     },
