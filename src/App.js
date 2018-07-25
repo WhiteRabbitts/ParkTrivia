@@ -3,9 +3,11 @@ import update from 'react-addons-update';
 import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
-import got from './images/got.jpg';
+import parktrivia from './images/parktrivia.png';
 import logo from './svg/logo.svg';
 import './App.css';
+
+
  
 class App extends Component {
  
@@ -133,7 +135,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" /> 
-          <img src={got} className="App-img" alt="img" />
+          <img src={parktrivia} className="App-img" alt="img" />
           
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
